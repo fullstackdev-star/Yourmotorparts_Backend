@@ -1,0 +1,41 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Node ###
+node_modules/
+
+### https://github.com/github/gitignore/blob/master/CodeIgniter.gitignore ###
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
+*/cache/!.htaccess
+
+### idea
+.idea/
+*/nohup.out
+
+### Source map files (local gulp tasks will still produce .map for debug use) ###
+*.map
+
+### Different from local and server *_local, *_server ###
+/application/config/const.php
+
+### ignore asset files, leave folders
+/assets/uploads/chat_files/*
+!/assets/uploads/chat_files/index.html
+/assets/uploads/chat_files/thumbs/*
+!/assets/uploads/chat_files/thumbs/index.html
+/assets/uploads/chat_room/*
+!/assets/uploads/chat_room/index.html
+/assets/uploads/products/*
+!/assets/uploads/products/index.html
+/assets/uploads/profile/photo/*
+!/assets/uploads/profile/photo/index.html
+/assets/uploads/stickers/category/*
+!/assets/uploads/stickers/category/index.html
+/assets/uploads/stickers/full_size/*
+!/assets/uploads/stickers/full_size/index.html
+/assets/uploads/stickers/small_size/*
+!/assets/uploads/stickers/small_size/index.html
+/assets/uploads/test/*
+!/assets/uploads/test/index.html

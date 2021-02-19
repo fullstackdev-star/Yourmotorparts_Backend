@@ -1,0 +1,1 @@
+<?php if ( !empty($id) ) echo "(ID = $id)"; ?>
